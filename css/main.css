@@ -83,13 +83,13 @@ article p, #instructions p {
     background-image: url('../images/SaliorMoonSprites\ copy.jpg');
 }
 
-#Silor2 {background-position: -150px 0;}
-#Silor3 {background-position: -300px 0;}
-#Silor4 {background-position: -450px 0;}
-#Silor5 {background-position: -600px 0;}
-#Silor6 {background-position: -750px 0;}
+#Sailor2 {background-position: -150px 0;}
+#Sailor3 {background-position: -300px 0;}
+#Sailor4 {background-position: -450px 0;}
+#Sailor5 {background-position: -600px 0;}
+#Sailor6 {background-position: -750px 0;}
 
-#Silor1:hover, #Silor2:hover, #Silor3:hover, #Silor4:hover, #Silor5:hover, #Silor6:hover {
+#Sailor1:hover, #Sailor2:hover, #Sailor3:hover, #Sailor4:hover, #Sailor5:hover, #Sailor6:hover {
     background-position-y: -150px;
 }
 
