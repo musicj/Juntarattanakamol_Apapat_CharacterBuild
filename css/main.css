@@ -26,14 +26,6 @@ header {
 }
 
 
-#character_nav {
-    background-color: #000000
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-}
-
-
 .characters {
     list-style-type: none;
     padding: 0;
@@ -42,10 +34,15 @@ header {
     flex-wrap: wrap;
 }
 
-.characters li {
-    height: 200x;
+#character_nav {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
+.characters li {
+    height: 220px;
     margin: 10px 8px;
     text-align: left;
     cursor: pointer;
@@ -57,12 +54,20 @@ header {
     text-decoration: none;
 }
 
+.characters li:hover {
+    box-shadow: 0 205px 0 rgb(241, 6, 249) inset;
+}
+
+.characters li h5 {
+    color: #fff;
+    padding: 12px 8px;
+}
+
 article, #instructions {
     padding: 20px;
 }
 
-article h3, #instruction h3 {
-
+article h3, #instructions h3 {
     font-size: 32px;
     text-align: center;
     margin-bottom: 14px;
@@ -72,7 +77,6 @@ article p, #instructions p {
     font-size: 18px;
     text-align: center;
 }
-
 .sprite {
     width: 150px;
     height: 150px;
@@ -87,27 +91,3 @@ article p, #instructions p {
 #Silor1:hover, #Silor2:hover, #Silor3:hover, #Silor4:hover, #Silor5:hover, #Silor6:hover {
     background-position-y: -150px;
 }
-
-
-#Sailor2 {background-position: -150px 0;}
-#Sailor3 {background-position: -300px 0;}
-#Sailor4 {background-position: -450px 0;}
-#Sailor5 {background-position: -600px 0;}
-#Sailor6 {background-position: -750px 0;}
-
-#Salilor1:hover, #Sailor2:hover, #Sailor3:hover, #Sailor4:hover, #Sailor5:hover, #Sailor6:hover {
-    background-position-y: -150px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.sticky_footer {
-    height: 80pc;
-    background-color: black;
-    position: sticky;
-    top: 100%;
-}
-
