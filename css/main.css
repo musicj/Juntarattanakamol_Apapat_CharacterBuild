@@ -24,3 +24,71 @@ header {
     display: block;
     margin: 0 auto; 
 }
+
+
+.characters {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.characters li {
+    height: 200x;
+    margin: 10px 8px;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 155px 0 rgb(132, 0, 255) inset;
+    transition: box-shadow .2s ease;
+}
+
+.characters li a {
+    text-decoration: none;
+}
+
+.characters li:hover {
+    box-shadow: 0 205px 0 rgb(255, 0, 251) inset;
+}
+
+.characters li h5 {
+    color: white;
+    padding: 12px 8px;
+}
+
+article, #instructions {
+    padding: 20px;
+}
+
+article h3, #instruction h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+article p, #instructions p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#Sailor2 {background-position: -150px 0;}
+#Sailor3 {background-position: -300px 0;}
+#Sailor4 {background-position: -450px 0;}
+#Sailor5 {background-position: -600px 0;}
+#Sailor6 {background-position: -750px 0;}
+
+#Salilor1:hover, #Sailor2:hover, #Sailor3:hover, #Sailor4:hover, #Sailor5:hover, #Sailor6:hover {
+    background-position-y: -150px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sticky_footer {
+    height: 80pc;
+    background-color: black;
+    position: sticky;
+    top: 100%;
+}
