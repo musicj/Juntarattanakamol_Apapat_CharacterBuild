@@ -115,8 +115,9 @@ footer {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0, 0.85);
+    background-image: url('../images/Sailor1.webp');
     background-repeat: no-repeat;
-    background-size: 55vh;
+    background-size: 50vh;
     background-position: 40px bottom;
     display: none;
 }
@@ -142,7 +143,7 @@ footer {
 
 .lightbox article {
     width: 40%;
-    margin-left: 50%;
+    margin-left: 38%;
     padding-top: 50px;
 }
 
