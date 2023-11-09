@@ -36,6 +36,7 @@ header {
 
 #character_nav {
     background-color: #000000;
+    background-image: url('../images/SaliorMoonSprites\ copy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
