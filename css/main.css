@@ -36,8 +36,8 @@ header {
 }
 
 #character_nav {
-    background-color: #000000;
-    background-image: url('../images/SaliorMoonSprites\ copy.jpg');
+    background-color: #28395f88;
+    background-image: url('../images/307700138_615144353457377_9006175472922847272_n.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -115,21 +115,16 @@ footer {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
     display: none;
 }
 
-#lightbox2 {
-    background-image: url('../images/Thor_LB_Bg.png');
-}
-
 .lightbox_close {
     position: absolute;
     top: 20px;
-    right: 5%;
+    right: 6%;
 
     color: white;
     font-size: 36px;
@@ -141,13 +136,13 @@ footer {
 }
 
 .lightbox_close:hover {
-    opacity: 0.5;
-    color: red;
+    opacity: 0.7;
+    color: rgb(238, 0, 255);
 }
 
 .lightbox article {
-    width: 55%;
-    margin-left: 40%;
+    width: 40%;
+    margin-left: 50%;
     padding-top: 50px;
 }
 
