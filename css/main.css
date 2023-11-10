@@ -122,7 +122,7 @@ footer {
     display: none;
 }
 
-.lightbox2 {
+#lightbox2 {
     background-image: url(../images/Sailor2.png);
 }
 
