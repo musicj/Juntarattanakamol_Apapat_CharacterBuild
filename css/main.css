@@ -122,6 +122,26 @@ footer {
     display: none;
 }
 
+.lightbox2 {
+    background-image: url(../images/Sailor2.png);
+}
+
+#lightbox3 {
+    background-image: url(../images/Sailor3.png);
+}
+
+#lightbox4 {
+    background-image: url(../images/Sailor4.png);
+}
+
+#lightbox5 {
+    background-image: url(../images/Sailor5.png);
+}
+
+#lightbox6 {
+    background-image: url(../images/Sailor6.webp);
+}
+
 .lightbox_close {
     position: absolute;
     top: 20px;
